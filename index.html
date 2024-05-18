@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>SOLICODE TANGER</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home">HOME</a></li>
+          <li class="link"><a href="#about">ABOUT</a></li>
+          <li class="link"><a href="#class">SOLICODE</a></li>
+          <li class="link"><a href="#trainer">FACILITIES</a></li>
+          <li class="link"><a href="#price">FORMATIONS</a></li>
+          <li class="link"><button class="btn"><a href="regester.html">Registration</a></button></li>
+          <li class="link">
+            <a href="#home" data-en="Home" data-ar="الرئيسية" data-fr="Accueil"></a>
+            <button id="language-toggle" class="btn">Switch to French</button>
+          </li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/img1.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4>registration 2023-2024</h4>
+          <h1 class="section__header">SOLICODE TANGER</h1>
+          <p>
+            You are between 18 and 35 years old? You are motivated, passionate about digital technologies? Register now!
+          </p>
+          <div class="header__btn">
+            <button class="btn">I register</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img class="about__bg" src="assets/dot-bg.png" alt="bg" />
+        <img src="assets/img2.png" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Our Story</h2>
+        <p class="section__description">
+          Solicode is a coding school located in Tangier, Morocco. It offers training programs in web development and programming. The school aims to provide inclusive and accessible education in the field of digital skills.
+        </p>
+        <div class="about__grid">
+          <div class="about__card">
+            <span><i class="ri-open-arm-line"></i></span>
+            <div>
+              <h4>Associates</h4>
+              <p>
+                The school collaborates with various organizations and partners to offer free training programs in web and mobile development.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-shield-cross-line"></i></span>
+            <div>
+              <h4>Institute</h4>
+              <p>
+                Solicode is part of the larger ecosystem of coding schools in Morocco, which includes other institutions like Youcode and 1337.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-p2p-line"></i></span>
+            <div>
+              <h4>Pedagogy</h4>
+              <p>
+                The school aims to provide inclusive and accessible education in the field of digital skills.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container class__container" id="class">
+      <h2 class="section__header">SOLICODE IN NUMBERS</h2>
+      <p class="section__description">
+        Discover a diverse range of exhilarating classes at our gym designed to
+        cater to all fitness levels and interests. Whether you're a seasoned
+        athlete or just starting your fitness journey, our classes offer
+        something for everyone.
+      </p>
+      <div class="class__grid">
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/img3.png" alt="class" />
+          <div class="class__content">
+            <h4>12 Staff</h4>
+            <p>...</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/img4.png" alt="class" />
+          <div class="class__content">
+            <h4>120 teaching places</h4>
+            <p>...</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/img5.png" alt="class" />
+          <div class="class__content">
+            <h4>43 Winners</h4>
+            <p>...</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/img6.png" alt="class" />
+          <div class="class__content">
+            <h4>2 Formation</h4>
+            <p>web and mobile</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container price__container" id="price">
+      <h2 class="section__header">Formation</h2>
+      <p class="section__description">
+        Our pricing plan comes with various membership tiers, each tailored to
+        cater to different preferences and fitness aspirations.
+      </p>
+      <div class="price__grid">
+        <div class="price__card">
+          <div class="price__content">
+            <img src="assets/img7.png" alt="price" />
+            <hr />
+            <h4>Web development</h4>
+            <p>The web developer realizes all the technical features of a web application.</p>
+          </div>
+          <button class="btn">Join Now</button>
+        </div>
+        <div class="price__card">
+          <div class="price__content">
+            <img src="assets/img8.png" alt="price" />
+            <hr />
+            <h4>mobile development</h4>
+            <p>The mobile developer performs the technical realization and IT development of mobile applications.</p>
+          </div>
+          <button class="btn">Join Now</button>
+        </div>
+        <div class="price__card">
+          <div class="price__content">
+            <img src="assets/img9.png" alt="price" />
+            <hr />
+            <h4>activities</h4>
+            <p>The activities are an opportunity for students to get out of the daily routine and also to keep in touch with the external environment. For this SOLICODE organizes during the year extra activities.</p>
+          </div>
+          <button class="btn">Join Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container trainer__container" id="trainer">
+      <h2 class="section__header">Our facilities</h2>
+      <p class="section__description">
+        This part of the page tells you more about our center Solicode and brings you closer to it by giving you exclusive information
+      </p>
+      <div class="trainer__grid">
+        <div class="trainer__card">
+          <img src="assets/img10.png" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Solicode Reception</h4>
+            <hr />
+            <p>
+                The first place you see when you enter to our center where there is the administration.
+            </p>
+          </div>
+        </div>
+        <div class="trainer__card">
+          <img src="assets/img11.png" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Solicode Classes</h4>
+            <hr />
+            <p>
+                As you can see our classes have modern equipments and qualified teachers you can learn from them a lot of things they will help u to devlop
+            </p>
+          </div>
+        </div>
+        <div class="trainer__card">
+          <img src="assets/img12.png" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Solicode Activities</h4>
+            <hr />
+            <p>
+                Here where activities are organized so that the students can have an opportunity to get out of the daily routine and also to keep in touch with the external environment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">What People Says About Us?</h2>
+      <p class="section__description">
+        These testimonials serve as a testament to our commitment to helping
+        individuals achieve their goals, and fostering a supportive
+        environment for everyone who walks through our doors.
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/img13.png" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>
+                Good School Because We Are Like Family Here
+              </p>
+              <h4>AZ IZ</h4>
+              <h5>Student</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/img14.png" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+              </div>
+              <p>
+                So far so good 👌 llahoma barik
+              </p>
+              <h4>Amire</h4>
+              <h5>Student</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/img15.png" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>
+                Great school not bad
+              </p>
+              <h4>Farah</h4>
+              <h5>Student</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                A modern school with empowered framers 👍
+              </p>
+              <h4>David Martinez</h4>
+              <h5>Entrepreneur</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="section__container footer__container">
+          <div class="footer__col">
+            <div class="footer__logo">
+              <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+            </div>
+            <div class="footer__socials">
+              <a href="https://www.facebook.com/solicodetanger/"
+                ><i class="ri-facebook-fill"></i
+              ></a>
+              <a href="https://www.instagram.com/solicodetanger/"
+                ><i class="ri-instagram-line"></i
+              ></a>
+              <a href="https://www.linkedin.com/company/solicode-tanger/"
+                ><i class="ri-linkedin-fill"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer__col">
+            <h4>Home</h4>
+            <div class="footer__links">
+              <a href="#">solicode</a>
+              <a href="#">Formation</a>
+              <a href="#">Activites</a>
+            </div>
+          </div>
+          <div class="footer__col">
+            <h4>About Us</h4>
+            <div class="footer__links">
+              <a href="#">Associates</a>
+              <a href="#">Institute</a>
+              <a href="#">Pedagogy</a>
+            </div>
+          </div>
+          <div class="footer__col">
+            <h4>Contact</h4>
+            <div class="footer__links">
+              <a href="https://maps.app.goo.gl/9otgZnKCEFniuFLZ6"
+                ><i class="ri-map-pin-line"></i> Bni Waryaghel 90000 <br />Tanger,
+                Morocco</a
+              >
+              <a href="tel:+212634390505"
+                ><span><i class="ri-phone-line"></i>(+212) 0634 39 05 05</span></a
+              >
+              <a href="mailto:solicode.tng@gmail.com"
+                ><i class="ri-mail-line"></i> solicode.tng@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="footer__bar" id="grad1">
+          Copyright © 2023 All Rights Reserved by SOUHAIL IMARRAINE.
+        </div>
+      </footer>
+
+  <script src="script/main.js"></script>
+  </body>
+</html>
